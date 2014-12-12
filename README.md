@@ -51,6 +51,10 @@ Set the following node [attributes](https://docs.chef.io/attributes.html):
 ```
 and then add chef-client::config to your node's role/runlist.
 
+# Dependencies 
+
+pony https://github.com/benprew/pony
+
 # LICENSE AND AUTHOR:
 
 A fork of chef-mail-handler, originally by:
