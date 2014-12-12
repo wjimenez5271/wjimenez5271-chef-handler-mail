@@ -53,6 +53,8 @@ and then add chef-client::config to your node's role/runlist.
 
 # LICENSE AND AUTHOR:
 
+A fork of chef-mail-handler, originally by:
+
 Author:: Mathieu Sauve-Frankel (<msf@kisoku.net>)
 
 Copyright:: 2011, Mathieu Sauve-Frankel
