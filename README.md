@@ -11,7 +11,7 @@ You'll need to install the gem in systems that will need to run it. You'll want 
 ### Using /etc/chef/config.rb
 
     require 'rubygems'
-    require 'chef/handler/mail'
+    require 'wjimenez5271/chef/handler/mail'
 
     mail_handler = MailHandler.new
     report_handlers << mail_handler
@@ -20,8 +20,8 @@ You'll need to install the gem in systems that will need to run it. You'll want 
 
 ### Using chef_handler LWRP
 
-    chef_gem 'chef-handler-mail'
-    require 'chef/handler/mail'
+    chef_gem 'wjimenez5721/chef-handler-mail'
+    require 'wjimenez5271/chef/handler/mail'
 
     chef_handler 'MailHandler' do
        source 'chef/handler/mail'
